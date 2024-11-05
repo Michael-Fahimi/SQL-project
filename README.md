@@ -10,24 +10,35 @@ FROM parts of the query; other clauses are optional.
 The program is tested through the random selection of tables, attributes, and clauses, as shown
 below:
 • TEST CASE 1: SELECT-FROM (one table).
+
 • TEST CASE 2: SELECT-FROM (more than one table).
+
 • TEST CASE 3: SELECT-FROM (one table)-WHERE (one simple condition)
+
 • TEST CASE 4: SELECT-FROM(more than one table)-WHERE (one simple/multiple
+
 condition)
+
 • TEST CASE 5: SELECT-FROM (more than one table)-WHERE (one simple/multiple
 condition)
+
 • TEST CASE 6: SELECT-FROM-WHERE-GROUP BY. (Any combination of tables and
 condition is possible)
+
 • TEST CASE 7: SELECT-FROM-WHERE-GROUP BY-HAVING. (Any combination of tables
 and condition is possible)
+
 • TEST CASE 8: SELECT-FROM-WHERE-ORDER BY. (Any combination of tables and
 condition is possible. Any selection of the order direction is possible)
+
 • TEST CASE 9: SELECT-FROM-WHERE-ORDER BY-LIMIT and/or OFFSET. (Any
 combination of tables and condition is possible. Any selection of the order direction is
 possible)
+
 • TEST CASE 9: SELECT-FROM-WHERE-ORDER BY-LIMIT and/or OFFSET. (Any
 combination of tables and condition is possible. Any selection of the order direction is
 possible)
+
 • TEST CASE 10: SELECT-FROM-WHERE-GROUP BY- HAVING-ORDER BY-LIMIT-OFFSET.
 (Any combination of attributes, tables and conditions is possible. Any selection of the
 order direction is possible)
